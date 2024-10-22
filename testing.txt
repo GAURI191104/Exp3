@@ -1,0 +1,40 @@
+For Exp2/3
+open folder--> new txt file
+then on folder open git bash
+open new repository
+commands:
+git init
+git status
+git add -A
+git commit -m "First Commit"
+git status
+ remote add origin (new repository)
+ remote -v
+remote remove origin
+git push origin master
+git clone https (new/old)
+git pull origin master
+git merge origin master
+git log
+git config --global user.name "abcd"
+email
+git config --global --list
+
+
+
+Exp8/9
+install docker desktop
+on cmd wsl --install
+then windows on/off --> Virtual machine platform & Windows hypervisor platform
+see if docker opens
+cmd commands: 
+docker --version
+docker pull nginx
+docker images
+docker run -d -p 8080:80 nginx/8081
+docker ps
+docker pull docker/whalesay
+docker pull python:3
+docker run -it python:3 bash
+# pip install cowsay
+# python -m cowsay -c tux -t "Hello from Cow"
